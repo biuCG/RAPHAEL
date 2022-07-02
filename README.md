@@ -1,6 +1,6 @@
 # RAPHAEL
 
-Recognition of race bib number in image crops (previously cut by YOLO detect.py) 
+Recognition of race bib number in images (previously dorsal detection by YOLO detect.py) 
 
 YOLO optional parameters: 
 python3 detect.py --weights weights.pt --img 640 --conf 0.25 --source path/input/images --save-conf --save-crop --save-txt --project path/outs/ --name name_folder
