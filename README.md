@@ -7,7 +7,7 @@ python3 detect.py --weights weights.pt --img 640 --conf 0.25 --source path/input
 
 To run:
 
-python3 main.py --inpath path/of/crops/ --output_file output_results.csv --thres 0.5
+python3 main.py --inpath path/of/images/YOLO_detected/ --output_file output_results.csv --thres 0.5
 
 Returns a csv file with:
 
